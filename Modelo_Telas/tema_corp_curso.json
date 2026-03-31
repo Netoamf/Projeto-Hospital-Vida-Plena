@@ -1,0 +1,111 @@
+{
+  "name": "Dark Blue Professional",
+  "background": "#0B1F3A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#4CC9F0",
+  "dataColors": [
+    "#4CC9F0",
+    "#4895EF",
+    "#4361EE",
+    "#3A0CA3",
+    "#F72585",
+    "#B5179E",
+    "#7209B7",
+    "#2ECC71",
+    "#F1C40F",
+    "#E74C3C"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": [
+          { "solid": { "color": "#FFFFFF" } }
+        ],
+        "fontSize": [
+          { "value": 12 }
+        ],
+        "fontFamily": [
+          { "value": "Segoe UI" }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0B1F3A" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0E2A4D" } },
+            "transparency": 0
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#C7D3E3" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#7F9BB8" } }
+          }
+        ]
+      }
+    },
+    "titleText": {
+      "*": {
+        "color": [
+          { "solid": { "color": "#FFFFFF" } }
+        ],
+        "fontSize": [
+          { "value": 14 }
+        ]
+      }
+    },
+    "axis": {
+      "*": {
+        "labelColor": [
+          { "solid": { "color": "#C7D3E3" } }
+        ],
+        "titleColor": [
+          { "solid": { "color": "#FFFFFF" } }
+        ],
+        "gridlineColor": [
+          { "solid": { "color": "#1E3A5F" } }
+        ]
+      }
+    },
+    "legend": {
+      "*": {
+        "labelColor": [
+          { "solid": { "color": "#C7D3E3" } }
+        ],
+        "titleColor": [
+          { "solid": { "color": "#FFFFFF" } }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#133B6C" } },
+            "transparency": 0
+          }
+        ],
+        "items": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } }
+          }
+        ]
+      }
+    }
+  }
+}
